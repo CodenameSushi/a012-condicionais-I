@@ -1,8 +1,7 @@
-let nacionalidade = prompt('Qual sua nacionalidade? (apenas letras minusculas)')
+let nacionalidade = prompt('Qual sua nacionalidade?').toLowerCase()
 
 if(nacionalidade === 'brasileira'){
     alert('BRASILEIRA')
-
 }else if(nacionalidade === 'argentina'){
     alert('ARGENTINA')
 }else if(nacionalidade === 'uruguaia'){
@@ -14,13 +13,3 @@ if(nacionalidade === 'brasileira'){
 }else{
     alert('NACIONALIDADE INVALIDA')
 }
-
-
-
-
-
-
-
-
-
-
